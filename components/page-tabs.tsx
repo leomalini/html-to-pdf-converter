@@ -30,7 +30,7 @@ export function PageTabs({
               onClick={() => setActivePageId(page.id)}
               className="whitespace-nowrap"
             >
-              {`Page ${idx + 1}`}
+              {`Página ${idx + 1}`}
             </Button>
             {pages.length > 1 && (
               <Button
