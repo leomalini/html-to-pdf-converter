@@ -18,7 +18,7 @@ export function useHtmlPages() {
     const newPageId = `page-${Date.now()}`;
     const newPage = {
       id: newPageId,
-      html: `<h1>Page ${nextPageIndex}</h1>\n<p>This is page ${nextPageIndex}.</p>`,
+      html: ``,
       index: nextPageIndex,
     };
     setPages([...pages, newPage]);
