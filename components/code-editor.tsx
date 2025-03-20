@@ -23,7 +23,7 @@ export default function CodeEditor({
   if (!mounted) {
     return (
       <div className="w-full h-full bg-muted flex items-center justify-center">
-        <p className="text-muted-foreground">Loading editor...</p>
+        <p className="text-muted-foreground">Carregando editor...</p>
       </div>
     );
   }
