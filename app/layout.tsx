@@ -4,6 +4,7 @@ import "./globals.css";
 export const metadata: Metadata = {
   title: "HTML -> PDF",
   description: "Converta HTML para PDF",
+  icons: "/images/favicon.ico",
 };
 
 export default function RootLayout({
